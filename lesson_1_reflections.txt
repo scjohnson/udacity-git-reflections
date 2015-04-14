@@ -1,0 +1,58 @@
+Q: How did viewing a diff between two versions of a file help you see
+the bug that was introduced?
+
+A: The diff tool was able to swiftly determine which files that were
+different whereas I would have needed to step through the files line
+by line to find the problem without diff.
+
+Q: How could having easy access to the entire history of a file make
+you a more efficient programmer in the long term?
+
+A: By allowing me to roll back to prior versions to find errors that
+may have cropped up in the development cycle and I missed the problem
+when they were first introduced.
+
+Q: What do you think are the pros and cons of manually choosing when
+to create a commit, like you do in Git, vs having versions
+automatically saved, like Google docs does?
+
+A: Automatically saving helps save the developer from themself by
+ensuring a history of the file is available. However, it doesn't help
+save at appropriate times corresponding to logical stopping points
+where the code is expected to be stable and reflecting a single
+change.
+
+Q: Why do you think some version control systems, like Git, allow
+saving multiple files in one commit, while others, like Google Docs,
+treat each file separately?
+
+A: When coding you often want to make changes in separate files that
+correspond to a single logical change. However for something like
+Google Docs, the usage is usually that the single file holds all the
+logic, so having commits for multiple files isn't as important.
+
+Q: How can you use the commands git log and git diff to view the
+history of files?
+
+A: With git log you can see the history and find versions based on
+their hash, then use git diff between two hashes to see the
+differences.
+
+Q: How might using version control make you more confident to make
+changes that could break something?
+
+A: Because I can always revert back to find out where the error showed
+up and then fix it.
+
+
+Q: Now that you have your workspace set up, what do you want to try
+using Git for?
+
+A: My work.
+
+ 
+
+
+
+
+
