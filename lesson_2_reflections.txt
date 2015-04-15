@@ -10,3 +10,30 @@ the repository? What value do you think it offers?
 The staging area is a mark of items that will be included in the next
 commit and provides a nice way for you to see what will be in your
 commit before you do so.
+
+Q: How can you use the staging area to make sure you have one commit
+per logical change?
+
+By only adding to the staging area those changes in your current code
+on disk that corresponds to a logical change.
+
+Q: What are some situations when branches would be helpful in keeping
+your history organized? How would branches help?
+
+For each of our releases we should make a branch so they can continue
+to be supported while we continue new development. Also, for each DR
+we fix, we could have a separate branch.
+
+Q: How do the diagrams help you visualize the branch structure?
+
+They help me see which commits are reachable by others so I can see
+where specific features are implemented.
+
+Q: What is the result of merging two branches together? Why do we
+represent it in the diagram the way we do?
+
+It combines the changes made in both branches into a single
+commit. It's represented in the diagram to show it has parentage going
+through both branches.
+
+ 
