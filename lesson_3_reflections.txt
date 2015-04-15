@@ -3,3 +3,29 @@ work local?
 
 To share with others and to have a remote backup.
 
+Q: Why might you want to always pull changes manually rather than having Git
+automatically stay up-to-date with your remote repository?
+
+To avoid pulling in changes from others when you aren't ready for them.
+
+Q: Describe the differences between forks, clones, and branches. When would you
+use one instead of another?
+
+A branch provides a way to work on different versions of the code and then
+merge them together if and when needed. A clone brings a copy of a repository
+to your local machine. A fork makes a copy of a github repository to another
+github repository, while providing credit to the original author.
+
+Q: What is the benefit of having a copy of the last known state of the remote
+stored locally?
+
+To provide input as to whether it is appropriate to push.
+
+Q: How would you collaborate without using Git or GitHub? What would be easier,
+  and what would be harder?
+
+I'd likely have to create my own git server somewhere. Or have it on my local
+laptop for collaboration, which would make collaboration a bit more painful for
+others to submit requests and for us to stay in sync.
+
+
